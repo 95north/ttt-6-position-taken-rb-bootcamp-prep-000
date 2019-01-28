@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
 
 def position_taken?(array, index)
-  if ((array[index] == " "  || "" || nil ) && (array[index] != "X" || "O" || " X " || " O ")) 
+  if (array[index] == " "  || array[index] == "" || array[index] == nil )
     return FALSE
   else
     return TRUE
